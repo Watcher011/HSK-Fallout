@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>Vaultec_Caravan_TraderGeneral</defName>
+    <label>Торговец Волт-тек</label>
+    <commonality>1</commonality>
+    <faction>Vaultec</faction>
+    <permitRequiredForTrading>TradeCaravan</permitRequiredForTrading>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3750~6200</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>5~10</thingDefCountRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>SimpleStimpack</thingDef>
+        <countRange>8~16</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Weapon_Grenade_Bottlecap</thingDef>
+        <countRange>3~7</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>BottleCap</thingDef>
+        <countRange>30~70</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Isotop</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+	    <li Class="StockGenerator_SingleDef">
+        <thingDef>Jaffa_BasicHelmet</thingDef>
+        <countRange>3</countRange>
+      </li>
+	  
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Marine_Armor</thingDef>
+        <countRange>3</countRange>
+      </li>
+     
+      <!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>2~2</kindCountRange>
+        <countRange>3~4</countRange>
+        <createMatingPair>
+          <li>AnimalFarm</li>
+        </createMatingPair>
+      </li>
+
+      <!-- Genepack -->
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+        <thingDef>Genepack</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+
+      <!-- Buying -->
+     <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	   <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+
+
+</Defs>

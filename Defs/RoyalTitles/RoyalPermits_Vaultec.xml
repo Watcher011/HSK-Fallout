@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================= Permits from royal titles ============================= -->
+
+  <RoyalTitlePermitDef>
+    <defName>TradeSettlement</defName>
+    <label>торговля с населенными пунктами Волт-тек</label>
+  </RoyalTitlePermitDef>
+  
+  <RoyalTitlePermitDef>
+    <defName>TradeOrbital</defName>
+    <label>торговля с орбитальными торговцами Волт-тек</label>
+  </RoyalTitlePermitDef>
+  
+  <RoyalTitlePermitDef>
+    <defName>TradeCaravan</defName>
+    <label>торговля с караванами Волт-тек</label>
+  </RoyalTitlePermitDef>
+
+
+  <!-- ============================= Faction permits ============================= -->
+  <RoyalTitlePermitDef Name="DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction>Vaultec</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>20</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+  
+  <RoyalTitlePermitDef ParentName="DropResourcesBase">
+    <defName>SimpleStimpackDrop</defName>
+    <label>Запрос Стимпаков</label>
+    <description>Запрос на ящик стимпаков.</description>
+    <minTitle>corporal</minTitle>
+    <faction>Vaultec</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <SimpleStimpack>25</SimpleStimpack>
+      </itemsToDrop>
+      <favorCost>3</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="DropResourcesBase">
+    <defName>FoodDrop</defName>
+    <label>Запрос провизии</label>
+    <description>Запрос ящика сухпая.</description>
+    <minTitle>specialist</minTitle>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSurvivalPack>25</MealSurvivalPack>
+      </itemsToDrop>
+      <favorCost>2</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+
+  <RoyalTitlePermitDef>
+    <defName>CallVaultecTeam</defName>
+    <label>Запрос Группы поддержки</label>
+    <description>Вызов 4х бойцов в силовой броне.</description>
+      <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>GeneralManager</minTitle>
+    <faction>Vaultec</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>VaultecDestroyer</pawnKindDef>
+      <pawnCount>5</pawnCount>
+      <aidDurationDays>1</aidDurationDays>
+    </royalAid>
+    <cooldownDays>30</cooldownDays>
+  </RoyalTitlePermitDef>
+
+
+
+  <RoyalTitlePermitDef>
+    <defName>CallOrbitalStrike</defName>
+    <label>Запрос орбитального удара</label>
+    <description>Удар с орбиты.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <minTitle>officer</minTitle>
+    <faction>Vaultec</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <uiPosition>(0,5)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>5.9</radius>
+      <explosionRadiusRange>10.9</explosionRadiusRange>
+      <explosionCount>1</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>CallOrbitalSalvo</defName>
+    <label>Запрос Арт обстрела</label>
+    <description>-----.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+   <minTitle>officer</minTitle>
+    <faction>Vaultec</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>CallOrbitalStrike</prerequisite>
+    <cooldownDays>60</cooldownDays>
+    <uiPosition>(1,5)</uiPosition>
+    <royalAid>
+      <favorCost>8</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>40.9</radius>
+      <explosionRadiusRange>5.9</explosionRadiusRange>
+      <explosionCount>20</explosionCount>
+      <intervalTicks>70</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>
+ 
+  
+</Defs>

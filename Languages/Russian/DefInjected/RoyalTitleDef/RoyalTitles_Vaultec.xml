@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <rookie.label>Новобранеец</rookie.label>
+  <rookie.description>----.</rookie.description>
+
+
+  <!-- Empire titles - Player gettable psycaster -->
+
+  <Private.label>Знакомый</Private.label>
+  <Private.description>----.</Private.description>
+
+  <specialist.label>Курьер</specialist.label>
+  <specialist.description>----.</specialist.description>
+
+  <corporal.label>Подручный</corporal.label>
+  <corporal.description>----.</corporal.description>
+  <corporal.labelFemale>Подручная</corporal.labelFemale>
+
+  <sergeant.label>Помощник убежища</sergeant.label>
+  <sergeant.description>----.</sergeant.description>
+
+  <officer.label>Друг Убежища</officer.label>
+  <officer.description>----.</officer.description>
+  <officer.labelFemale>Подруга Убежища</officer.labelFemale>
+
+  <consul.label>Друг Волт-тек</consul.label>
+  <consul.description>----.</consul.description>
+  <consul.labelFemale>Подруга Волт-тек</consul.labelFemale>
+
+
+  <!-- Empire titles - NPC only psycaster -->
+
+  <Colonel.label>Администратор</Colonel.label>
+  <Colonel.description>----.</Colonel.description>
+  <Colonel.labelFemale>Администратор</Colonel.labelFemale>
+
+  <Recruiter.label>Вербовщик</Recruiter.label>
+  <Recruiter.description>----.</Recruiter.description>
+
+  <Warden.label>Верховный Смотритель</Warden.label>
+  <Warden.description>----.</Warden.description>
+  <Warden.labelFemale>Верховная Смотрительница</Warden.labelFemale>
+
+
+</LanguageData>
