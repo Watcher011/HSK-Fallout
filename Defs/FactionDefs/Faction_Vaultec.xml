@@ -12,7 +12,10 @@
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <canSiege>false</canSiege>
+	<earliestRaidDays>225</earliestRaidDays>
     <canStageAttacks>false</canStageAttacks>
+	<mustStartOneEnemy>false</mustStartOneEnemy>
+	<naturalEnemy>false</naturalEnemy>
     <leaderTitle>Смотритель</leaderTitle>
     <royalFavorLabel>Репутация</royalFavorLabel>
     <royalFavorIconPath>UI/Icons/Vaultec</royalFavorIconPath>
@@ -21,43 +24,109 @@
     <factionNameMaker>NamerFactionVaultec</factionNameMaker>
     <settlementNameMaker>NamerSettlementVaultec</settlementNameMaker>
     <allowedCultures><li>VaultecCulture</li></allowedCultures>
-    <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-    </requiredMemes>
-    <allowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-    </allowedMemes>
-    <disallowedPrecepts>
-      <li>Slavery_Classic</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
-    </disallowedPrecepts>
-    <structureMemeWeights>
-      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
-      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
-      <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
-      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
-      <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
-      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
-      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
-    </structureMemeWeights>
+   <requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Strict</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Free</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_KeepNames</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_UsuallyMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_NonMeat_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinOrChestDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestOrHairDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestOrHairDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_HorribleIfInnocent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_DontCare</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_RespectedIfGuilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_VerySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Slow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Normal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_Fast</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Standard</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Exalted</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Apostasy_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleSellOK</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
+		</disallowedPrecepts>
     <xenotypeSet>
       <xenotypeChances>
         <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">0.3</OE_Ghoul>
       </xenotypeChances>
     </xenotypeSet>
-    <permanentEnemyToEveryoneExcept>
-      <li>OutlanderCivil</li>
-      <li>TribeCivil</li>
+   <permanentEnemyToEveryoneExcept>
       <li>PlayerTribe</li>
       <li>PlayerColony</li>
-      <li>Ancients</li>
+	  <li>PlayerNova</li>
+	  <li>PlayerExiled</li>
+	  <li>PlayerNorbal</li>
+	  <li>PlayerSurvivor</li>
+	  <li>OrassanPlayerColony</li>
+	  <li>NuclearColonySurvivor</li>
+	  <li>ChjPlayerAndroidColony</li>
+	<li>ChjAndroidEnclave</li>
+	<li>AsariPlayerColony</li>
+	<li>RK_PlayerFaction</li>
     </permanentEnemyToEveryoneExcept>
     <techLevel>Ultra</techLevel>
     <backstoryFilters>
