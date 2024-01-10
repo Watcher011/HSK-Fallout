@@ -4,7 +4,7 @@
   <!-- ============================= Thoughts related to royal titles ============================= -->
 
   <ThoughtDef>
-    <defName>GainedTitle</defName>
+    <defName>GainedTitleValtec</defName>
     <durationDays>7</durationDays>
     <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
     <nullifyingTraits><li>Ascetic</li></nullifyingTraits>
@@ -18,7 +18,7 @@
   </ThoughtDef>
 
   <ThoughtDef>
-    <defName>LostTitle</defName>
+    <defName>LostTitleValtec</defName>
     <durationDays>7</durationDays>
     <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
     <nullifyingTraits><li>Ascetic</li></nullifyingTraits>

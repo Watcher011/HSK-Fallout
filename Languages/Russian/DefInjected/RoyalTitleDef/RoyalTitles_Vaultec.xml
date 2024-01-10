@@ -7,40 +7,40 @@
 
   <!-- Empire titles - Player gettable psycaster -->
 
-  <Private.label>Знакомый</Private.label>
+  <Private.label>"Волт-Тек"Знакомый</Private.label>
   <Private.description>----.</Private.description>
 
-  <specialist.label>Курьер</specialist.label>
+  <specialist.label>"Волт-Тек"Курьер</specialist.label>
   <specialist.description>----.</specialist.description>
 
-  <corporal.label>Подручный</corporal.label>
+  <corporal.label>"Волт-Тек"Подручный</corporal.label>
   <corporal.description>----.</corporal.description>
-  <corporal.labelFemale>Подручная</corporal.labelFemale>
+  <corporal.labelFemale>"Волт-Тек"Подручная</corporal.labelFemale>
 
-  <sergeant.label>Помощник убежища</sergeant.label>
+  <sergeant.label>"Волт-Тек"Помощник убежища</sergeant.label>
   <sergeant.description>----.</sergeant.description>
 
-  <officer.label>Друг Убежища</officer.label>
+  <officer.label>"Волт-Тек"Друг Убежища</officer.label>
   <officer.description>----.</officer.description>
-  <officer.labelFemale>Подруга Убежища</officer.labelFemale>
+  <officer.labelFemale>"Волт-Тек"Подруга Убежища</officer.labelFemale>
 
-  <consul.label>Друг Волт-тек</consul.label>
+  <consul.label>"Волт-Тек"Друг</consul.label>
   <consul.description>----.</consul.description>
-  <consul.labelFemale>Подруга Волт-тек</consul.labelFemale>
+  <consul.labelFemale>"Волт-Тек"Подруга</consul.labelFemale>
 
 
   <!-- Empire titles - NPC only psycaster -->
 
-  <Colonel.label>Администратор</Colonel.label>
+  <Colonel.label>"Волт-Тек"Администратор</Colonel.label>
   <Colonel.description>----.</Colonel.description>
-  <Colonel.labelFemale>Администратор</Colonel.labelFemale>
+  <Colonel.labelFemale>"Волт-Тек"Администратор</Colonel.labelFemale>
 
-  <Recruiter.label>Вербовщик</Recruiter.label>
+  <Recruiter.label>"Волт-Тек"Вербовщик</Recruiter.label>
   <Recruiter.description>----.</Recruiter.description>
 
-  <Warden.label>Верховный Смотритель</Warden.label>
+  <Warden.label>"Волт-Тек"Верховный Смотритель</Warden.label>
   <Warden.description>----.</Warden.description>
-  <Warden.labelFemale>Верховная Смотрительница</Warden.labelFemale>
+  <Warden.labelFemale>"Волт-Тек"Верховная Смотрительница</Warden.labelFemale>
 
 
 </LanguageData>
