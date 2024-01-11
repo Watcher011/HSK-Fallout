@@ -36,10 +36,17 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>20~40</countRange>
+        <thingDefCountRange>10~20</thingDefCountRange>
+        <countRange>200~400</countRange>
       </li>
 
+
+ <li Class="StockGenerator_MarketValue">
+        <tradeTag>WeaponRanged</tradeTag>
+        <weaponTag>VaultecGun</weaponTag>
+        <countRange>10~15</countRange>
+      </li>
+	  
       <!-- Drugs -->
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
@@ -54,7 +61,34 @@
           </li>
         </countChances>
       </li>
-
+  <li Class="StockGenerator_SingleDef">
+        <thingDef>SimpleStimpack</thingDef>
+        <countRange>8~16</countRange>
+		
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Jaffa_BasicHelmet</thingDef>
+        <countRange>8~16</countRange>
+      </li>
+	  
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Marine_Armor</thingDef>
+        <countRange>8~16</countRange>
+      </li>
+	  
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Weapon_Grenade_Bottlecap</thingDef>
+        <countRange>3~7</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>BottleCap</thingDef>
+        <countRange>30~70</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Isotop</thingDef>
+        <countRange>1~2</countRange>
+      </li>
       <!-- Weapons -->
       <li Class="StockGenerator_MarketValue">
         <tradeTag>WeaponRanged</tradeTag>
@@ -115,9 +149,7 @@
       <li Class="StockGenerator_Animals">
         <maxWildness>0.70</maxWildness>
         <tradeTagsSell>
-          <li>AnimalUncommon</li>
-          <li>AnimalExotic</li>
-          <li>AnimalFarm</li>
+          <li>AnimalFallout</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalExotic</li>
@@ -125,7 +157,7 @@
         <kindCountRange>2~2</kindCountRange>
         <countRange>3~4</countRange>
         <createMatingPair>
-          <li>AnimalFarm</li>
+          <li>AnimalFallout</li>
         </createMatingPair>
       </li>
 

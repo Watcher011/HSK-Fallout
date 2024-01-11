@@ -73,10 +73,9 @@
 			<max>4000</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>ASN1</li>
-            <li>AdvancedGun</li>
-            <li>TierTwoLow</li>
-            <li>Futuristic</li>
+		<li>VaultecLaserRifel</li>
+			<li>VaultecPlasmaRifel</li>
+			<li>VaultecGun</li>
             <li>CE_AI_Rifle</li>
 		</weaponTags>
 		<disallowedTraits>
@@ -145,15 +144,11 @@
 			<li>BrotherhoodMedium</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>2000</min>
+			<min>2600</min>
 			<max>6200</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>ADR2</li>
-            <li>AdvancedGun</li>
-            <li>TierTwoNormal</li>
-            <li>Futuristic</li>
-            <li>CE_AI_Rifle</li>
+			<li>VaultecGun</li>
 		</weaponTags>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -222,17 +217,13 @@
 			<li>Marine_Armor</li>
 		</apparelTags>
 		<weaponMoney>
-			<min>2100</min>
+			<min>2600</min>
 			<max>4500</max>
 		</weaponMoney>
 		<weaponTags>
-			 <li>MG3</li>
-            <li>AdvancedGun</li>
-			<li>GunHeavy</li>
-            <li>TierTwoAdvanced</li>
-			<li>CE_AI_Suppressive</li>
-            <li>Microgun</li>
-			<li>Minigun</li>
+		    <li>VaultecPlasmaRifel</li>
+			<li>VaultecGun</li>
+			<li>VaultecGatlingLaser</li>
 		</weaponTags>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -303,11 +294,10 @@
 			<max>3550</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>ADR2</li>
             <li>AdvancedGun</li>
-            <li>TierTwoHigh</li>
-            <li>Futuristic</li>
-            <li>CE_AI_Rifle</li>
+			<li>VaultecLaserRifel</li>
+			<li>VaultecPlasmaRifel</li>
+			<li>VaultecGun</li>
 		</weaponTags>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -367,6 +357,9 @@
 		</weaponMoney>
 		<weaponTags>
 			<li>SNIP1</li>
+			<li>VaultecLaserRifel</li>
+			<li>VaultecPlasmaRifel</li>
+			<li>VaultecGun</li>
 		</weaponTags>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -441,16 +434,11 @@
 			<max>4800</max>
 		</weaponMoney>
 		<weaponTags>
-			 <li>MG3</li>
-			<li>MG2</li>
-            <li>GunHeavy</li>
             <li>MachineGun</li>
-            <li>BrotherhoodHeavy</li>
-            <li>SectarianHeavy</li>
-            <li>SyndicateMachineGun</li>
-            <li>OrionHeavy</li>
-			<li>CE_MachineGun</li>
-			<li>CE_AI_Suppressive</li>
+           <li>VaultecLaserRifel</li>
+			<li>VaultecPlasmaRifel</li>
+			<li>VaultecGun</li>
+			<li>VaultecGatlingLaser</li>
 		</weaponTags>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -495,16 +483,10 @@
 			<max>4500</max>
 		</weaponMoney>
 		<weaponTags>
-			 <li>MG3</li>
-			<li>MG2</li>
-            <li>GunHeavy</li>
-            <li>MachineGun</li>
-            <li>BrotherhoodHeavy</li>
-            <li>SectarianHeavy</li>
-            <li>SyndicateMachineGun</li>
-            <li>OrionHeavy</li>
-			<li>CE_MachineGun</li>
-			<li>CE_AI_Suppressive</li>
+           <li>VaultecLaserRifel</li>
+			<li>VaultecPlasmaRifel</li>
+			<li>VaultecGun</li>
+			<li>VaultecGatlingLaser</li>
 		</weaponTags>
 		<disallowedTraits>
 			<li>Brawler</li>

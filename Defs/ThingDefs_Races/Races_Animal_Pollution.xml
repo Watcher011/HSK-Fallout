@@ -115,6 +115,7 @@
 			</untrainableTags>
 		</race>
 		<tradeTags>
+		<li>AnimalFallout</li>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
@@ -286,6 +287,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
+		<li>AnimalFallout</li>
 			<li>AnimalCommon</li>
 		</tradeTags>
 		<modExtensions>
@@ -388,6 +390,11 @@
 			<packAnimal>true</packAnimal>
 			<wildness>0.85</wildness>
 		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="SK_BearKindBase">
@@ -554,6 +561,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
+		<li>AnimalFallout</li>
 			<li>AnimalCommon</li>
 			<li>AnimalFarm</li>
 		</tradeTags>
@@ -809,6 +817,7 @@
 			</hediffGiverSets>
 		</race>
 		<tradeTags>
+		<li>AnimalFallout</li>
 			<li>AnimalUncommon</li>
 		</tradeTags>
 		<modExtensions>
@@ -959,6 +968,11 @@
 				<li>Work</li>
 			</untrainableTags>
 		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
 		<modExtensions>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Quadruped</bodyShape>
@@ -1179,6 +1193,11 @@
 				<li>Work</li>
 			</untrainableTags>
 		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
 		<modExtensions>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>Birdlike</bodyShape>

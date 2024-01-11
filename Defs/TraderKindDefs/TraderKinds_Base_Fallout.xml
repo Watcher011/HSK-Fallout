@@ -6,6 +6,43 @@
     <faction>Vaultec</faction>
     <permitRequiredForTrading>TradeSettlement</permitRequiredForTrading>
     <stockGenerators>
+	  
+ 
+ <li Class="StockGenerator_MarketValue">
+        <tradeTag>ExoticVaultec</tradeTag>
+        <weaponTag>VaultecLaserPistol</weaponTag>
+        <countRange>1~5</countRange>
+      </li>
+
+<li Class="StockGenerator_MarketValue">
+        <tradeTag>ExoticVaultec</tradeTag>
+        <weaponTag>VaultecLaserRifel</weaponTag>
+        <countRange>1~3</countRange>
+      </li>
+
+<li Class="StockGenerator_MarketValue">
+        <tradeTag>ExoticVaultec</tradeTag>
+        <weaponTag>VaultecPlasmaRifel</weaponTag>
+        <countRange>1~3</countRange>
+      </li>
+
+<li Class="StockGenerator_MarketValue">
+        <tradeTag>ExoticVaultec</tradeTag>
+        <weaponTag>VaultecGatlingLaser</weaponTag>
+        <countRange>1~2</countRange>
+      </li>
+
+ <li Class="StockGenerator_Tag">
+        <tradeTag>Ammo_ChargedLaser</tradeTag>
+        <thingDefCountRange>10~20</thingDefCountRange>
+        <countRange>2000~4000</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_Tag">
+        <tradeTag>Ammo_6x24mmCharged</tradeTag>
+        <thingDefCountRange>10~20</thingDefCountRange>
+        <countRange>2000~4000</countRange>
+      </li>
 
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
@@ -41,6 +78,7 @@
         <thingDef>BottleCap</thingDef>
         <countRange>30~70</countRange>
       </li>
+	  
 	  <li Class="StockGenerator_SingleDef">
         <thingDef>Isotop</thingDef>
         <countRange>1~2</countRange>
