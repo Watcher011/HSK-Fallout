@@ -12,6 +12,58 @@
 				<thingDef>Silver</thingDef>
 				<countRange>1500~4800</countRange>
 			</li>
+			
+			<li Class="StockGenerator_Category">
+				<categoryDef>WeaponsTurrets</categoryDef>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+			</li>
+			 <li Class="StockGenerator_Tag">
+            <tradeTag>CE_AmmoInjector</tradeTag>
+            <countRange>
+              <min>500</min>
+              <max>2000</max>
+            </countRange>
+            <thingDefCountRange>
+              <min>6</min>
+              <max>11</max>
+            </thingDefCountRange>
+          </li>    
+		   <li Class="StockGenerator_Tag">
+            <tradeTag>CE_AutoEnableTrade_Sellable</tradeTag>
+            <countRange>
+              <min>500</min>
+              <max>2000</max>
+            </countRange>
+            <thingDefCountRange>
+              <min>6</min>
+              <max>11</max>
+            </thingDefCountRange>
+          </li>    
+		    <li Class="StockGenerator_Tag">
+            <tradeTag>CE_AutoEnableCrafting</tradeTag>
+            <countRange>
+              <min>500</min>
+              <max>2000</max>
+            </countRange>
+            <thingDefCountRange>
+              <min>6</min>
+              <max>11</max>
+            </thingDefCountRange>
+          </li>    
+				<li Class="StockGenerator_Tag">
+				<tradeTag>CE_Ammo</tradeTag>
+				<countRange>
+					<min>500</min>
+					<max>2000</max>
+				</countRange>
+				<thingDefCountRange>
+					<min>5</min>
+					<max>9</max>
+				</thingDefCountRange>
+			</li>
 	 <li Class="StockGenerator_SingleDef">
         <thingDef>SimpleStimpack</thingDef>
         <countRange>8~16</countRange>
@@ -39,6 +91,26 @@
         <thingDef>Isotop</thingDef>
         <countRange>1~2</countRange>
       </li>
+	  
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaQuantum</thingDef>
+        <countRange>5~12</countRange>
+      </li>
+	  
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaCola</thingDef>
+        <countRange>10~12</countRange>
+      </li>
+	 
+	 <li Class="StockGenerator_Category">
+				<categoryDef>FuturisticVaultec</categoryDef>
+				<thingDefCountRange>1~8</thingDefCountRange>
+				<totalPriceRange>400~30000</totalPriceRange>
+				<countRange>1~5</countRange>
+			</li>		
+	 
+	  
+	  
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentSpacer</thingDef>
 				<countRange>12~30</countRange>
@@ -101,23 +173,7 @@
 				<thingDefCountRange>1~3</thingDefCountRange>
 				<countRange>1~5</countRange>
 			</li>
-			<li Class="StockGenerator_Animals">
-				<checkTemperature>true</checkTemperature>
-				<tradeTagsSell>
-					<li>AnimalFighter</li>
-					<li>AnimalExotic</li>
-				</tradeTagsSell>
-				<tradeTagsBuy>
-					<li>AnimalCommon</li>
-					<li>AnimalFighter</li>
-					<li>AnimalExotic</li>
-				</tradeTagsBuy>
-				<kindCountRange>1~2</kindCountRange>
-				<countRange>2~6</countRange>
-				<createMatingPair>
-					<li>AnimalFarm</li>
-				</createMatingPair>
-			</li>
+			
 			<li Class="StockGenerator_Tag">
 				<tradeTag>TechHediff</tradeTag>
 				<thingDefCountRange>2~4</thingDefCountRange>

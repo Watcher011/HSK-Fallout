@@ -197,13 +197,21 @@
           <Vaultec_Common_Trader>1</Vaultec_Common_Trader>
         </traders>
         <carriers>
-		<Muffalo>1</Muffalo>
+		<Muffalo>4</Muffalo>
         </carriers>
         <guards>
-          <VaultecGuard>3</VaultecGuard>
-		   <Mech_MrHandy>3</Mech_MrHandy>
-          <VaultecStriker>10</VaultecStriker>
-          <VaultecProtector>1.5</VaultecProtector>
+          <Thrasher>3</Thrasher>
+          <Pirate>10</Pirate>
+          <Grenadier_Tox>2</Grenadier_Tox>
+          <Grenadier_Destructive>0.25</Grenadier_Destructive>
+          <Mercenary_SlasherTox>3</Mercenary_SlasherTox>
+          <Mercenary_Slasher>1</Mercenary_Slasher>
+          <Mercenary_Sniper>10</Mercenary_Sniper>
+          <Mercenary_GunnerTox>10</Mercenary_GunnerTox>
+          <Mercenary_Gunner>1</Mercenary_Gunner>
+          <Mercenary_EliteTox>10</Mercenary_EliteTox>
+          <Mercenary_Elite>1</Mercenary_Elite>
+          <PirateBossTox>10</PirateBossTox>
         </guards>
       </li>
       <li>
