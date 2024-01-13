@@ -385,6 +385,8 @@
 			<MoveSpeed>5.2</MoveSpeed>
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<CarryWeight>310</CarryWeight>
+			<CarryBulk>240</CarryBulk>
 		</statBases>
 		<race>
 			<packAnimal>true</packAnimal>
@@ -465,6 +467,8 @@
 			<MeatAmount>175</MeatAmount>
 			<MeleeDodgeChance>0.1</MeleeDodgeChance>
 			<MeleeCritChance>0</MeleeCritChance>
+			<CarryWeight>260</CarryWeight>
+			<CarryBulk>240</CarryBulk>
 			<FilthRate>16</FilthRate>
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
@@ -1020,12 +1024,14 @@
 			<LeatherAmount>40</LeatherAmount>
 			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
 			<MarketValue>8000</MarketValue>
-			<MeatAmount>90</MeatAmount>
+			<MeatAmount>190</MeatAmount>
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeCritChance>0.3</MeleeCritChance>
 			<GermResistance>0.4</GermResistance>
 			<GermContainment>0.2</GermContainment>
 			<FilthRate>18</FilthRate>
+			<CarryWeight>310</CarryWeight>
+			<CarryBulk>300</CarryBulk>
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		</statBases>

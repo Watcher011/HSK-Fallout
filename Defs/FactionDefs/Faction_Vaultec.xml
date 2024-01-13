@@ -197,7 +197,7 @@
           <Vaultec_Common_Trader>1</Vaultec_Common_Trader>
         </traders>
         <carriers>
-          <Muffalo>8</Muffalo>
+		<Muffalo>1</Muffalo>
         </carriers>
         <guards>
           <VaultecGuard>3</VaultecGuard>
